@@ -1,0 +1,14 @@
+@media screen and (max-width:600px){
+    .nav{
+        width: 100%;
+    }
+    .navlist ul li{
+        display: none;
+    }
+    .cent ul{
+        display: none;
+    }
+    /* .content h3{
+        font-size: .9vw;
+    } */
+}

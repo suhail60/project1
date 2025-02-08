@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+      
+       /* -webkit-user-select: none; /* Safari */
+       /* -moz-user-select: none; /* Firefox */
+        /*-ms-user-select: none; /* Internet Explorer/Edge */
+      
+      
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    height: 45px;
+    background-color: rgb(52, 52, 223);
+    color: white;
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+    gap: 1vw;
+}
+.nav_btns i{
+    margin-right: 12px;
+}
+.slider-container{
+    display: flex;
+    margin: 2% 0;
+    justify-content: center;
+    user-select: none; /* Prevent text selection */
+    
+}
+.slider{
+    width: 80%;
+    
+    
+    /* background-color: red; */
+    overflow: hidden;
+    position: relative;
+    
+}
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out; 
+    width: 100%;
+    gap: .3vw;
+}
+.headlines{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+.subhead{
+    margin-bottom: 4%;
+}
+.team1 h2{
+    margin-bottom: 2px;
+    
+}
+.team2 h2{
+    margin-bottom: 2px;
+    
+}
+.card{
+    min-width: 33%;
+    height: 56%;
+    background-color: rgba(11, 11, 11, 0.888);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+img{
+    width: 16%;
+}
+.img{
+    width: 45%;
+}
+.vs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.sticky{
+    background-color: whitesmoke;
+    padding: 14px 22px;
+    border-radius: 8px;
+    margin-right: 2vw;
+}
+.slider{
+    overflow: hidden;
+    position: relative;
+}
+.slider .links{
+    display: flex;
+    gap: 2vw;
+    color: white;
+}
+.content{
+    background-color: blue;
+    min-width: 30%;
+   display: flex;
+   justify-content: center;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+.content h3{
+    font-size: 1.5vw;
+}
+.headlines button{
+    padding: 8px 10px;
+    background-color: blue;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.footer{
+    background-color: rgb(52, 52, 223);
+    height: 50vh;
+    padding: 0 25px;
+    color: white;
+  
+}
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 8vh 0;
+    padding: 50px 0;
+    border-bottom: black 1px solid;
+    
+}
+.lft h2{
+    font-size: 2vw;
+}
+.cent ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5vw;
+}
+.footer h3{
+    text-align: center;
+    font-size: 1.6vw;
+}
+.grey{
+    background-color: rgba(212, 206, 206, 0.578);
+}
